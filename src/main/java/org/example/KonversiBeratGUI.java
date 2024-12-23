@@ -45,7 +45,7 @@ public class KonversiBeratGUI extends JFrame {
         JButton konversiButton = new JButton("Konversi"); // Tombol untuk melakukan konversi
 
         // Tabel untuk menampilkan hasil
-        String[] columnNames = {"Berat Asli", "Satuan Asal", "Satuan Tujuan", "Hasil"};
+        String[] columnNames = {"Berat Asli", "Satuan Asal", "Satuan tujuan", "Hasil"};
         tableModel = new DefaultTableModel(columnNames, 0); // Model tabel
         hasilTable = new JTable(tableModel); // Tabel untuk hasil
         JScrollPane scrollPane = new JScrollPane(hasilTable); // Scroll pane untuk tabel
